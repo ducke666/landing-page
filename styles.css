@@ -14,6 +14,14 @@ body {
     margin: 0;
 }
 
+.sitecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 header {
     display: flex;
     height: 75px;
@@ -122,8 +130,8 @@ header {
 .imageinfo {
         display: flex;
         height: auto;
-        width: 100%;
-        margin: 0px 0px 0px 0px;
+        width: 85%;
+        padding: 0px 7.5% 40px 7.5%;
         background-color: #6B493F;
         align-items: center;
         justify-content: flex-start;
@@ -142,17 +150,17 @@ header {
     }
         .dogz {
             display: flex;
-            width: 200px;
-            height: 200px;
+            width: 166px;
+            height: 166px;
             margin: 5px;
-            border: 15px solid #D8AC7C;
+            border: 14px solid #D8AC7C;
             justify-content: flex-start;
             align-items: center;
             background-color: #D8AC7C;
             flex-direction: column;
         }
             .dogz:hover {
-                border: 15px solid #D66767;
+                border: 14px solid #D66767;
             }
         .dogz img{
             width: 80%;
@@ -163,6 +171,42 @@ header {
         }
 
 
+.testimonial {
+    background-color: #FCACAC;
+    width: 60%;
+    padding: 10px 20% 10px 20%;
+    height: auto;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    .testimonial .testimonialbox {
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+        /* border: 5px solid red; */
+        flex-direction: column;
+    }
+        .testimonial .testimonialbox .quote {
+            justify-content: flex-start;
+            align-self: flex-start;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            color: #111111;
+            font-size: x-large;
+
+        }
+        .testimonial .testimonialbox .author {
+            justify-content: flex-end;
+            align-self: flex-end;
+            text-align: right;
+            font-size: large;
+        }
+        
 
 
 @media (max-width: 767px) {
