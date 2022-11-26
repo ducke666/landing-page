@@ -209,6 +209,43 @@ header {
         
 
 
+
+.cta_section{
+    display: flex;
+    width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+    .cta_box {
+        margin-top: 50px;
+        width: 600px;
+        height: auto;
+        display: flex;
+        background-color: #6B493F;
+        padding: 25px;
+    }
+        .cta_box .cta_text {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+    .cta_section button {
+            background-color: #D66767;
+            border: hidden;
+            width: 200px;
+            height: 35px;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 900;
+            border-radius: 12px;
+            align-self: flex-end;
+            justify-self: flex-end;
+        }
+        .cta_section button:hover {
+                background-color: #FCACAC;
+            }
+
 @media (max-width: 767px) {
     .title {
         display: none;
