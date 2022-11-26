@@ -31,7 +31,7 @@ header {
     position: fixed;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
         header img{
@@ -62,16 +62,33 @@ header {
             color: #F4EEEA;
         }
 
-        #signup {
-            color: #D66767;
+        .login {
+            color: white;
+            height: 40px;
+            width: 100px;
+            background-color:#6B493F;
+            border-radius: 15px;
+            border: none;
         }
-        #signup:hover {
-            color: grey;
+        .login:hover{
+            background-color: #FCACAC;
+        }
+        .signup {
+            color: black;
+            font-weight: 800;
+            height: 40px;
+            width: 100px;
+            background-color:#D66767;
+            border-radius: 15px;
+            border: none;
+        }
+        .signup:hover {
+            background-color: #FCACAC;
         }
 
 .openingcontainer {
     padding-top: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -80,6 +97,7 @@ header {
     background-color: #D8AC7C;
     flex-wrap: wrap-reverse;
 }
+
     .opencopy {
         flex-shrink: 1;
         flex-basis: 400px;
@@ -120,6 +138,8 @@ header {
         padding: 25px;
     }
         .openimg img {
+            flex-shrink: 2;
+
             max-width: 500px;
             flex: 1;
             margin: 0;
@@ -130,8 +150,8 @@ header {
 .imageinfo {
         display: flex;
         height: auto;
-        width: 85%;
-        padding: 0px 7.5% 40px 7.5%;
+        width: 90%;
+        padding: 0px 5% 40px 5%;
         background-color: #6B493F;
         align-items: center;
         justify-content: flex-start;
@@ -246,7 +266,7 @@ header {
                 background-color: #FCACAC;
             }
 
-@media (max-width: 767px) {
+@media (max-width: 1015px) {
     .title {
         display: none;
     }
@@ -256,5 +276,11 @@ header {
     }
     .opencopy p, h1 {
         text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .openingcontainer {
+        padding-bottom: 50px;
     }
 }
