@@ -63,7 +63,6 @@ header {
 
 .openingcontainer {
     padding-top: 50px;
-    width: 100%;
     padding-bottom: 5px;
     display: flex;
     justify-content:center;
@@ -126,7 +125,6 @@ header {
         width: 100%;
         margin: 0px 0px 0px 0px;
         background-color: #6B493F;
-        padding: 5px 25px 30px 25px;
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
@@ -147,14 +145,14 @@ header {
             width: 200px;
             height: 200px;
             margin: 5px;
-            border: 10px solid #D8AC7C;
+            border: 15px solid #D8AC7C;
             justify-content: flex-start;
             align-items: center;
             background-color: #D8AC7C;
             flex-direction: column;
         }
             .dogz:hover {
-                border: 10px solid #D66767;
+                border: 15px solid #D66767;
             }
         .dogz img{
             width: 80%;
