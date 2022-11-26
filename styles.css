@@ -63,6 +63,7 @@ header {
 
 .openingcontainer {
     padding-top: 50px;
+    width: 100%;
     padding-bottom: 5px;
     display: flex;
     justify-content:center;
@@ -118,8 +119,63 @@ header {
         }
 
 
+ 
+.imageinfo {
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        background-color: #6B493F;
+        padding: 5px 25px 30px 25px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .subtitle, .choose {
+        color: #F4EEEA;
+        display: flex;
+    }
+    .dogcharacters {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+        .dogz {
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            border: 10px solid #D8AC7C;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #D8AC7C;
+            flex-direction: column;
+        }
+            .dogz:hover {
+                border: 10px solid #D66767;
+            }
+        .dogz img{
+            width: 80%;
+            height: 80%;
+        }
+        .dogz p {
+            color: #6B493F;
+        }
+
+
+
 
 @media (max-width: 767px) {
     .title {
-    display: none;
+        display: none;
+    }
+    .opencopy {
+        justify-content: center;
+        align-items: center;
+    }
+    .opencopy p, h1 {
+        text-align: center;
+    }
 }
