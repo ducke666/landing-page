@@ -232,23 +232,35 @@ header {
 
 .cta_section{
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    background-color: #D8AC7C;
+
 }
     .cta_box {
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 600px;
         height: auto;
         display: flex;
         background-color: #6B493F;
         padding: 25px;
+        
     }
         .cta_box .cta_text {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            color: white;
+        }
+        .cta_box .cta_text .cta_header {
+            color: white;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .cta_box .cta_text .cta_supporting {
+            color: white;
         }
 
     .cta_section button {
@@ -265,6 +277,16 @@ header {
         .cta_section button:hover {
                 background-color: #FCACAC;
             }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #6B493F;
+    color: white;
+}
+    footer p {
+        color: white;
+    }
 
 @media (max-width: 1015px) {
     .title {
